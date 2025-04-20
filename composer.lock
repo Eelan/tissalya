@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7d3da4051931b357a1b2691d865cbd3",
+    "content-hash": "f0e39ca20d7a59e2d2fe1dbb3fbbb65d",
     "packages": [
         {
             "name": "composer/semver",
@@ -1304,6 +1304,46 @@
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.5.2"
             },
             "time": "2025-01-24T11:45:48+00:00"
+        },
+        {
+            "name": "eelan/doctrine-traits",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Eelan/doctrine-traits.git",
+                "reference": "f6ae493054e05afb1af0e76c1ad34861465940d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Eelan/doctrine-traits/zipball/f6ae493054e05afb1af0e76c1ad34861465940d5",
+                "reference": "f6ae493054e05afb1af0e76c1ad34861465940d5",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.16 || ^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eelan\\DoctrineTraits\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eelan",
+                    "email": "contact@eelan.fr"
+                }
+            ],
+            "description": "A collection of traits for Doctrine entities.",
+            "support": {
+                "issues": "https://github.com/Eelan/doctrine-traits/issues",
+                "source": "https://github.com/Eelan/doctrine-traits/tree/v0.0.2"
+            },
+            "time": "2025-04-13T17:17:46+00:00"
         },
         {
             "name": "egulias/email-validator",
